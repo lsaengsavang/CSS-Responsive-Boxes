@@ -11,6 +11,7 @@ body {
 .header {
   background-color: rgb(121, 121, 121);
   padding: 100px;
+  text-align: center;
 }
 
 .row {
@@ -23,13 +24,14 @@ body {
   background-color: rgb(137, 137, 255);
   flex: 70%;
   height: 700px;
-
+  text-align: center;
 }
 
 .side {
   background-color: rgb(255, 126, 126);
   flex: 30%;
   height: 700px;
+  text-align: center;
 }
 
 

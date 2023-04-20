@@ -1,3 +1,51 @@
 body {
   background: papayawhip;
+  text-align: center;
+}
+
+.top {
+  background-color: lightpink;
+  padding: 100px;
+}
+
+.bottom {
+  display: flex;
+}
+
+.left-container {
+  flex-direction: column;
+  flex: 70%;
+}
+
+.main {
+  background-color: lightgrey;
+  padding: 200px;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-evenly;
+}
+
+.row {
+  background-color: lightblue;
+  border: 1px solid black;
+  padding: 150px;
+  flex-wrap: wrap;
+}
+
+.right-container {
+  background-color: lightsteelblue;
+  padding: 100px;
+  flex: 30%;
+}
+
+@media(max-width:800px) {
+  .bottom {
+    flex-direction: column;
+  }
+  .row {
+    padding: 80px;
+  }
 }
