@@ -1,3 +1,48 @@
 body {
   background: peachpuff;
 }
+
+.top {
+  background-color: blue;
+  padding: 150px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side {
+  flex-direction: column;
+  flex: 70%;
+}
+
+.row-containers {
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+}
+
+.card {
+  background-color: lightblue;
+  padding: 160px;
+  border: 1px solid black;
+}
+
+.right-side {
+  background-color: cornflowerblue;
+  flex: 30%;
+  padding: 200px;
+}
+
+@media(max-width:800px) {
+  .top {
+    padding: 100px;
+  }
+  .bottom {
+    flex-direction: column;
+  }
+  .card {
+    padding: 90px;
+  }
+}
