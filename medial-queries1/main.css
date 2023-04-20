@@ -1,3 +1,47 @@
 body {
   background: blanchedalmond;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: rgb(121, 121, 121);
+  padding: 100px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+.main {
+  background-color: rgb(137, 137, 255);
+  flex: 70%;
+  height: 700px;
+
+}
+
+.side {
+  background-color: rgb(255, 126, 126);
+  flex: 30%;
+  height: 700px;
+}
+
+
+
+@media(max-width: 700px) {
+  .row {
+    flex-direction: column;
+    }
+  .main {
+    padding: 300px;
+  }
+  .side {
+    padding: 200px;
+  }
+  }
